@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이미지 & 동영상 갤러리</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <!-- .dim+.popup>.gallery-content+button.btn-close -->
+    <div class="dim"></div>
+    <div class="popup">
+      <div class="gallery-content"></div>
+      <button class="btn-close" type="button">닫기</button>
+    </div>
+
+    <!-- .wrap>ul.gallery-list>li*9>img[src="./img/img$.jpg"] -->
+    <div class="wrap">
+      <ul class="gallery-list">
+        <li><img src="./img/img1.jpg" alt="티셔츠 1" /></li>
+        <li><img src="./img/img2.jpg" alt="티셔츠 2" /></li>
+        <li><img src="./img/img3.jpg" alt="티셔츠 3" /></li>
+
+        <li>
+          <img
+            src="./img/blackpink1.jpg"
+            alt="BLACKPINK - 'How You Like That' M/V"
+            data-link="https://www.youtube.com/embed/ioNng23DkIM"
+          />
+        </li>
+
+        <li><img src="./img/img4.jpg" alt="티셔츠 4" /></li>
+        <li><img src="./img/img5.jpg" alt="티셔츠 5" /></li>
+        <li>
+          <img
+            src="./img/blackpink2.jpg"
+            alt="[MV] BIBI(비비) _ BINU(비누)"
+            data-link="https://www.youtube.com/embed/3z9sq9e5iu4"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/blackpink3.jpg"
+            alt="IVE 아이브 'LOVE DIVE' MV"
+            data-link="https://www.youtube.com/embed/Y8JFxS1HlDo"
+          />
+        </li>
+        <li><img src="./img/img6.jpg" alt="티셔츠 6" /></li>
+        <li><img src="./img/img7.jpg" alt="티셔츠 7" /></li>
+        <li><img src="./img/img8.jpg" alt="티셔츠 8" /></li>
+        <li>
+          <img
+            src="./img/blackpink4.jpg"
+            alt="(여자)아이들((G)I-DLE) - 'TOMBOY' Official Music Video"
+            data-link="https://www.youtube.com/embed/Jh4QFaPmdss"
+          />
+        </li>
+        <li><img src="./img/img9.jpg" alt="티셔츠 9" /></li>
+      </ul>
+    </div>
+  </body>
+</html>

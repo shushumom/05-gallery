@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유튜브 갤러리</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="dim"></div>
+    <div class="video-wrap">
+      <div class="video">
+        <iframe
+          src=""
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p class="video-title"></p>
+      <button class="btn-close" type="button">닫기</button>
+    </div>
+
+    <!-- .wrap>ul.video-list>li*4[data-link] -->
+    <div class="wrap">
+      <ul class="video-list">
+        <li data-link="https://www.youtube.com/embed/ioNng23DkIM">BLACKPINK - 'How You Like That' M/V</li>
+        <li data-link="https://www.youtube.com/embed/3z9sq9e5iu4">[MV] BIBI(비비) _ BINU(비누)</li>
+        <li data-link="https://www.youtube.com/embed/Y8JFxS1HlDo">IVE 아이브 'LOVE DIVE' MV</li>
+        <li data-link="https://www.youtube.com/embed/Jh4QFaPmdss">
+          (여자)아이들((G)I-DLE) - 'TOMBOY' Official Music Video
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
